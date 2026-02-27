@@ -1,0 +1,15 @@
+# Ödev 6
+# soru 1 
+SELECT round(avg(rental_rate) , 2 )from film ;
+# soru 2
+SELECT COUNT(*) FROM film 
+WHERE title LIKE 'C%' ;
+# soru 3
+select length from film 
+where rental_rate = 0.99 
+order by length desc 
+limit 1 ;
+# soru 4
+select count(distinct replacement_cost) from film 
+where length > 150 ;
+# son
