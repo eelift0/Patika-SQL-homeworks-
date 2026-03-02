@@ -1,0 +1,69 @@
+# Ödev 1 
+# soru 1
+create table employee (
+  id INTEGER PRIMARY KEY,
+  first_name VARCHAR(50) NOT NULL,
+  last_name VARCHAR(50) NOT NULL,
+  email VARCHAR(100) ,
+  birthdate  DATE ) ;
+# soru 2
+insert into employee (id, first_name, last_name, email, birthdate) values (1, 'Sam', 'Greengrass', 'sgreengrass0@goo.gl', '2023-08-16');
+insert into employee (id, first_name, last_name, email, birthdate) values (2, 'Tania', 'Given', 'tgiven1@plala.or.jp', '2021-12-23');
+insert into employee (id, first_name, last_name, email, birthdate) values (3, 'Ginni', 'Cunnington', 'gcunnington2@biblegateway.com', '2000-01-26');
+insert into employee (id, first_name, last_name, email, birthdate) values (4, 'Olimpia', 'Vequaud', 'ovequaud3@ezinearticles.com', '2016-07-03');
+insert into employee (id, first_name, last_name, email, birthdate) values (5, 'Elyssa', 'Mullord', 'emullord4@gizmodo.com', '2013-12-09');
+insert into employee (id, first_name, last_name, email, birthdate) values (6, 'Ulysses', 'todor', 'utodor5@utexas.edu', '2006-06-11');
+insert into employee (id, first_name, last_name, email, birthdate) values (7, 'Pam', 'Whittlesey', 'pwhittlesey6@independent.co.uk', '2013-08-03');
+insert into employee (id, first_name, last_name, email, birthdate) values (8, 'Lissa', 'McNamee', 'lmcnamee7@hexun.com', '2018-04-04');
+insert into employee (id, first_name, last_name, email, birthdate) values (9, 'Ambrosius', 'Selley', 'aselley8@sourceforge.net', '2000-07-28');
+insert into employee (id, first_name, last_name, email, birthdate) values (10, 'Bell', 'Hufton', 'bhufton9@cyberchimps.com', '2017-01-31');
+insert into employee (id, first_name, last_name, email, birthdate) values (11, 'Corney', 'Oscroft', 'coscrofta@irs.gov', '2003-08-11');
+insert into employee (id, first_name, last_name, email, birthdate) values (12, 'Mal', 'Spatig', 'mspatigb@hexun.com', '2007-02-08');
+insert into employee (id, first_name, last_name, email, birthdate) values (13, 'Klaus', 'Korn', 'kkornc@cloudflare.com', '2016-10-22');
+insert into employee (id, first_name, last_name, email, birthdate) values (14, 'Solly', 'Sambath', 'ssambathd@intel.com', '2003-05-20');
+insert into employee (id, first_name, last_name, email, birthdate) values (15, 'Colette', 'Warnock', 'cwarnocke@webnode.com', '2021-02-20');
+insert into employee (id, first_name, last_name, email, birthdate) values (16, 'Hugo', 'Marrington', 'hmarringtonf@vkontakte.ru', '2017-03-07');
+insert into employee (id, first_name, last_name, email, birthdate) values (17, 'Prentice', 'Foan', 'pfoang@mail.ru', '2001-08-07');
+insert into employee (id, first_name, last_name, email, birthdate) values (18, 'Binny', 'Trenouth', 'btrenouthh@opensource.org', '2024-08-01');
+insert into employee (id, first_name, last_name, email, birthdate) values (19, 'Yorgos', 'Coweuppe', 'ycoweuppei@ucoz.ru', '2012-07-20');
+insert into employee (id, first_name, last_name, email, birthdate) values (20, 'Kissee', 'Corbould', 'kcorbouldj@mapquest.com', '2017-02-21');
+insert into employee (id, first_name, last_name, email, birthdate) values (21, 'Nahum', 'Richen', 'nrichenk@illinois.edu', '2019-09-05');
+insert into employee (id, first_name, last_name, email, birthdate) values (22, 'Clareta', 'Hun', 'chunl@mapquest.com', '2006-05-02');
+insert into employee (id, first_name, last_name, email, birthdate) values (23, 'Suzy', 'Woodyear', 'swoodyearm@globo.com', '2015-07-08');
+insert into employee (id, first_name, last_name, email, birthdate) values (24, 'Donny', 'Redding', 'dreddingn@delicious.com', '2010-04-04');
+insert into employee (id, first_name, last_name, email, birthdate) values (25, 'Ezekiel', 'Wildman', 'ewildmano@people.com.cn', '2008-01-11');
+insert into employee (id, first_name, last_name, email, birthdate) values (26, 'Mikkel', 'Stormouth', 'mstormouthp@sun.com', '2008-03-05');
+insert into employee (id, first_name, last_name, email, birthdate) values (27, 'Germana', 'Buffin', 'gbuffinq@istockphoto.com', '2011-06-22');
+insert into employee (id, first_name, last_name, email, birthdate) values (28, 'Lazare', 'Ternott', 'lternottr@dion.ne.jp', '2018-10-13');
+insert into employee (id, first_name, last_name, email, birthdate) values (29, 'Marika', 'Sharpe', 'msharpes@thetimes.co.uk', '2016-06-18');
+insert into employee (id, first_name, last_name, email, birthdate) values (30, 'Victoria', 'Stouther', 'vstouthert@nbcnews.com', '2010-02-05');
+insert into employee (id, first_name, last_name, email, birthdate) values (31, 'Cosette', 'Baike', 'cbaikeu@huffingtonpost.com', '2009-01-06');
+insert into employee (id, first_name, last_name, email, birthdate) values (32, 'Casar', 'Gumley', 'cgumleyv@columbia.edu', '1999-05-06');
+insert into employee (id, first_name, last_name, email, birthdate) values (33, 'Olympie', 'Terrans', 'oterransw@csmonitor.com', '2023-07-21');
+insert into employee (id, first_name, last_name, email, birthdate) values (34, 'Jinny', 'Northern', 'jnorthernx@bandcamp.com', '2001-04-02');
+insert into employee (id, first_name, last_name, email, birthdate) values (35, 'Leroy', 'Parsley', 'lparsleyy@wix.com', '2014-08-18');
+insert into employee (id, first_name, last_name, email, birthdate) values (36, 'Alexandrina', 'Portriss', 'aportrissz@cmu.edu', '2006-06-14');
+insert into employee (id, first_name, last_name, email, birthdate) values (37, 'Orville', 'Harses', 'oharses10@g.co', '2008-03-08');
+insert into employee (id, first_name, last_name, email, birthdate) values (38, 'Isadore', 'Suggate', 'isuggate11@eventbrite.com', '2000-05-29');
+insert into employee (id, first_name, last_name, email, birthdate) values (39, 'Sarajane', 'Perry', 'sperry12@dailymotion.com', '2019-03-16');
+insert into employee (id, first_name, last_name, email, birthdate) values (40, 'Jaimie', 'Petruska', 'jpetruska13@goodreads.com', '1999-01-11');
+insert into employee (id, first_name, last_name, email, birthdate) values (41, 'Alix', 'MacCauley', 'amaccauley14@opera.com', '2016-07-02');
+insert into employee (id, first_name, last_name, email, birthdate) values (42, 'Lucretia', 'Pagram', 'lpagram15@psu.edu', '2002-06-20');
+insert into employee (id, first_name, last_name, email, birthdate) values (43, 'Shandie', 'Wales', 'swales16@trellian.com', '2013-10-21');
+insert into employee (id, first_name, last_name, email, birthdate) values (44, 'Kelsi', 'Lightwing', 'klightwing17@mit.edu', '2021-07-21');
+insert into employee (id, first_name, last_name, email, birthdate) values (45, 'Kacey', 'Goulder', 'kgoulder18@google.com', '2001-08-14');
+insert into employee (id, first_name, last_name, email, birthdate) values (46, 'Cullin', 'Godfrey', 'cgodfrey19@latimes.com', '2011-03-08');
+insert into employee (id, first_name, last_name, email, birthdate) values (47, 'Aldo', 'Lukins', 'alukins1a@army.mil', '2019-03-06');
+insert into employee (id, first_name, last_name, email, birthdate) values (48, 'Emmeline', 'Greed', 'egreed1b@nyu.edu', '2004-01-16');
+insert into employee (id, first_name, last_name, email, birthdate) values (49, 'Amandy', 'Widdecombe', 'awiddecombe1c@miibeian.gov.cn', '2008-09-20');
+insert into employee (id, first_name, last_name, email, birthdate) values (50, 'Gweneth', 'Brunker', 'gbrunker1d@printfriendly.com', '2010-03-27');
+
+# soru 3
+UPDATE employee 
+SET first_name = 'isim' , last_name = 'soyadi' ;
+
+# soru 4
+DELETE FROM employee
+WHERE first_name LIKE 'E%' ;
+
+# son 
