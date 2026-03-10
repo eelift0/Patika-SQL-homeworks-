@@ -1,0 +1,11 @@
+# Ödev 9 
+# soru 1 
+select * from country 
+INNER JOIN city ON city.country_id = country.country_id ;
+# soru 2
+select payment.payment_id , customer.first_name , customer.last_name from customer 
+INNER JOIN payment ON customer.customer_id = payment.customer_id ; 
+# soru 3
+select rental.rental_id , customer.first_name , customer.last_name from customer 
+INNER JOIN rental ON rental.customer_id = customer.customer_id ;
+# son 
