@@ -1,0 +1,14 @@
+# Ödev 11
+# soru 1
+select * from actor 
+full join customer ON 
+customer.first_name = actor.first_name ;
+# soru 2
+select first_name from actor 
+intersect 
+select first_name from customer ;
+# soru 3
+select * from actor 
+left join customer ON 
+actor.first_name = customer.first_name ;
+# son 
